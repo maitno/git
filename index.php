@@ -49,4 +49,5 @@ define('APP_PATH', __DIR__ . '/application/');
 // 定义时间
 define('NOW_TIME',$_SERVER['REQUEST_TIME']);
 // 加载框架引导文件
+exit('123');
 require __DIR__ . '/thinkphp/start.php';
